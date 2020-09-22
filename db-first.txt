@@ -3,7 +3,7 @@ Auto Usate
 ID                        numero incrementale                    PRIMARY KEY, UNIQUE, AI
 Marca                     stringa                 varchar(30)    NOT NULL
 Modello                   stringa                 varchar(30)    NOT NULL
-Colore                    stringa                 varchar(20)
+Colore                    stringa                 varchar(40)
 Immatricolazione          data                    DATE           NOT NULL
 Cambio                    stringa                 varchar(20)
 Cilindrata                numero                  SMALLINT
@@ -12,4 +12,5 @@ Alimentazione             stringa                 varchar(50)
 Chilometraggio_attuale    numero                  INT            NOT NULL
 Prezzo                    numero                  float(10,2)    NOT NULL
 Descrizione               stringa                 TEXT
+Poster                    stringa                 varchar()      DEFAULT(...)
 Disponibilità             booleano                TYNYINT        NOT NULL, DEFAULT(1)
